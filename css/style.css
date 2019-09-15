@@ -1,0 +1,22 @@
+.container {
+  margin-bottom: 70px;
+}
+#gallery {
+  list-style: none;
+  display: flex;
+}
+#gallery li img {
+  max-width: 90%;
+}
+
+#validation-input {
+  display: block;
+}
+
+#validation-input.valid {
+  outline: 3px solid #4caf50;
+}
+
+#validation-input.invalid {
+  outline: 3px solid #f44336;
+}
